@@ -1,0 +1,86 @@
+.detalle {
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+  }
+  .detalle h1 {
+    color: red;
+  }
+  .botones-video {
+    color: red;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1400px) {
+    .titulo-video {
+      position: relative;
+      top: 80px;
+      left: 119px;
+    }
+    .parrafo-video {
+      top: 65px;
+      position: relative;
+      left: 117px;
+      color: white;
+    }
+  
+    .botones-video {
+      position: relative;
+      top: 50px;
+      left: 114px;
+      color: red;
+      background-color: #111111;
+    }
+    .nav{
+      text-transform: uppercase;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .titulo-video {
+      position: relative;
+      top: 80px;
+      left: 119px;
+      font-size: 28px;
+    }
+    .parrafo-video {
+      top: 65px;
+      position: relative;
+      left: 120px;
+      font-size: 12px;
+    }
+  
+    .botones-video {
+      position: relative;
+      top: 50px;
+      left: 114px;
+      color: red;
+      font-size: 8px;
+    }
+    .form-control, .buscar{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
+    .titulo-video {
+      position: relative;
+      top: 200px;
+      left: 119px;
+      font-size: 22px;
+    }
+    .parrafo-video {
+      top: 65px;
+      position: relative;
+      left: 120px;
+      font-size: 4px;
+      display: none;
+    }
+  
+    .botones-video {
+      position: relative;
+      top: 200px;
+      left: 114px;
+      color: red;
+      font-size: 8px;
+      padding: 3px;
+    }
+}

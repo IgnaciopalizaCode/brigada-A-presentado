@@ -1,0 +1,105 @@
+.fas{
+    color: rgb(6, 156, 156);
+}
+.izquierda{
+    background-color: #2ba4b6;
+}
+.izquierda .fas{
+    color: whitesmoke;
+}
+.izquierda .estrellas .fas{
+    color: gold;
+}
+header ul li a{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+.seccion-redes li{
+    transition-duration: 0.5s;
+}
+.seccion-redes li:hover {
+    transform: scale(1.03); 
+    transition-duration: 0.5s;
+}
+.seccion-redes li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+  
+  }
+ 
+
+  .seccion-redes li a{
+      display: flex;
+      align-items: center;
+  }
+ .seccion-redes li {
+     list-style: none;
+    
+ }
+ @media (max-width: 576px) { 
+    .seccion-redes li a {
+         display:flex;
+         
+         font-size: 18px;
+     }
+  }
+  @media (min-width: 576px) and (max-width: 900px) { 
+      .seccion-redes li a {
+        display:flex;
+        
+        font-size: 18px;
+      }
+
+   }
+   @media (min-width: 900px) and (max-width: 1400px) { 
+    .seccion-redes li a {
+      display:flex;
+      
+      font-size: 18px;
+    }
+   }
+
+   .card .card-body .resume-skills ul li{
+    color: #b1eaff;
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 20px;
+
+
+}
+.card .card-body .resume-skills ul li .skill-name{
+    width: 25%;
+}
+.card .card-body .resume-skills ul li .skill-progress{
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+    margin-top: 8px;
+}
+.card .card-body .resume-skills ul li .skill-per{
+    width: 15%;
+}
+.card .card-body .resume-skills ul li .skill-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+
+
+
